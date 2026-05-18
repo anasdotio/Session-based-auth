@@ -1,0 +1,16 @@
+{
+  "name": "session-auth-jwt",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --ext .js,.mjs,.cjs",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-config-prettier": "latest"
+  }
+}

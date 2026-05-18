@@ -1,0 +1,8 @@
+node_modules
+bun.lock
+dist
+out
+coverage
+*.log
+*.tsbuildinfo
+.eslintcache
