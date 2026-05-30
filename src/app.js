@@ -1,7 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
-import globalErrorHandler from './middlewares/global-error-handler';
+import globalErrorHandler from './middlewares/global-error-handler.js';
 
 const app = express();
 
